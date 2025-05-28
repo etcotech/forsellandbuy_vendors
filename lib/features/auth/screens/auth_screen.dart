@@ -16,6 +16,7 @@ class AuthScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     Provider.of<AuthController>(context, listen: false).isActiveRememberMe;
     return Scaffold(
+      backgroundColor: Colors.grey[500],
       body: Consumer<AuthController>(
         builder: (context, auth, child) {
           return SingleChildScrollView(

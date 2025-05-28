@@ -608,7 +608,7 @@
   "order_setup": "إعداد الطلب",
   "order_status": "حالة الطلب",
   "delivery_type": "نوع التسليم",
-  "seller": "بائع",
+  "seller": "تطبيق التاجر",
   "app": "برنامج",
   "invalid_credential_or_account_not_verified_yet": "بيانات اعتماد غير صالحة أو لم يتم التحقق من الحساب بعد",
   "been_sent": "تم إرسالها",

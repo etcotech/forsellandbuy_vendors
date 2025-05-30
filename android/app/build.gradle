@@ -34,7 +34,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace "com.sixamtech.sixvalley.seller"
     compileSdk 35
-    ndkVersion flutter.ndkVersion
+    ndkVersion "27.2.12479018"
 
     compileOptions {
         coreLibraryDesugaringEnabled true

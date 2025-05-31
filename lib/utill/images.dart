@@ -7,6 +7,7 @@ class Images {
   static const String logo = 'assets/image/app_icon.png';
   static const String whiteLogo = 'assets/image/logo.png';
     static const String splash = 'assets/image/splash.jpeg';
+    static const String splash2 = 'assets/image/app_icon.png';
 
   static const String logoWithAppName = 'assets/image/logo_with_name_white.png';
   static const String home = 'assets/image/home.png';

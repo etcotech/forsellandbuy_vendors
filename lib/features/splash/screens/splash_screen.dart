@@ -130,7 +130,7 @@ class SplashScreenState extends State<SplashScreen> {
             children: [
               Hero(
                   tag:'logo',
-                  child: Image.asset(Images.splash, height: 250.0,
+                  child: Image.asset(Images.splash2, height: 250.0,
                       fit: BoxFit.cover, width: 250.0)),
               // const SizedBox(height: Dimensions.paddingSizeExtraLarge,),
               // Text(AppConstants.appName, 

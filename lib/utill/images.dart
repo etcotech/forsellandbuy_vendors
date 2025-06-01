@@ -4,7 +4,7 @@ class Images {
   static const String onBoardingOne = 'assets/image/onboarding_image_one.png';
   static const String onBoardingTwo = 'assets/image/onboarding_image_two.png';
   static const String onBoardingThree = 'assets/image/onboarding_image_three.png';
-  static const String logo = 'assets/image/app_icon.png';
+  static const String logo = 'assets/image/app_icon.jpeg';
   static const String whiteLogo = 'assets/image/logo.png';
     static const String splash = 'assets/image/splash.jpeg';
     static const String splash2 = 'assets/image/app_icon.png';

@@ -87,18 +87,21 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 leadingWidth: 0, 
                 leading: const SizedBox(),
                 automaticallyImplyLeading: false,
-                backgroundColor: Colors.grey[500],
-                title: Image.asset(Images.logoWithAppName, height: 50),
+                //backgroundColor: Colors.grey[500],
+                backgroundColor: Colors.white,
+                //title: Image.asset(Images.logoWithAppName, height: 50),
+                title: Image.asset(Images.logoWithAppName, height: 50,color: const Color(0xff1175EF)),
                 actions: [
                   Consumer<NotificationController>(
                       builder: (context, notificationController, _) {
                         return InkWell(onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (_)=> const NotificationScreen())),
                           child: Stack(
                             children: [
-                              Padding(padding: const EdgeInsets.fromLTRB(Dimensions.paddingSizeDefault, Dimensions.paddingSizeSmall, Dimensions.paddingSizeDefault, 0),
+                              const Padding(padding: EdgeInsets.fromLTRB(Dimensions.paddingSizeDefault, Dimensions.paddingSizeSmall, Dimensions.paddingSizeDefault, 0),
                                 child: Icon(CupertinoIcons.bell,
-                                 color: Theme.of(context).highlightColor  
-                                 ),
+                                 //color: Theme.of(context).highlightColor
+                                    color:Colors.black
+                              ),
                               ),
                               Positioned(top: 5,right: 18,child: Align(alignment: Alignment.topRight,
                                   child: CircleAvatar(backgroundColor: Theme.of(context).colorScheme.error,
